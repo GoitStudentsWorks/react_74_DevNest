@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
 		<Provider store={store}>
 			<PersistGate loading={<Loader />} persistor={persistor}>
 				<UserProvider>
-					<BrowserRouter basename='/react_74_DevNest'>
+					<BrowserRouter>
 						<App />
 					</BrowserRouter>
 				</UserProvider>
